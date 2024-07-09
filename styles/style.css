@@ -65,11 +65,126 @@
     letter-spacing: 3px;
 }
 
+
+
 /* second part */
+
+.second-mother{
+    height: 1200px;
+    width: 1400px;
+    margin-left: 25%;
+    margin-top: -50px;
+
+}
 
 .second-banner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 950px;
+    height: 1240px;
+}
+.why-web{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 852px;
+    height: 113px;
+}
+
+.third-banner{
+    margin-top: 80px;
+}
+
+
+
+.para-1-head{
+    font-size: 32px;
+}
+.para-1{
+    font-size: 16px;
+}
+
+.b1{
+    display: flex;
+    /* border: 2px solid red; */
+    /* justify-content: center; */
+    gap: 200px;
+    width: 1000px;
+    height: 300px;
+}
+.para-2-mother{
+    /* display: flex;
+    flex-direction: column; */
+    width: 850px;
+    height: 240px;
+}
+.para-2-head{
+    font-size: 24px;
+
+
+}
+.para-2{
+    font-size: 16px;
+}
+
+
+
+
+
+.b2{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    width: 1000px;
+    height: 300px;
+
+}
+.para-3-mother{
+    width: 850px;
+    height: 240px;
+
+
+}
+.para-3-head{
+    font-size: 24px;
+
+}
+.para-3{
+    font-size: 16px;
+
+}
+
+
+
+
+
+.b3{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 200px;
+    width: 1000px;
+    height: 300px;
+}
+.para-4-mother{
+    width: 850px;
+    height: 240px;
+
+}
+.para-4-head{
+    font-size: 24px;
+
+}
+.para-4{
+    font-size: 16px;
+
+}
+
+.btn{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
 }
