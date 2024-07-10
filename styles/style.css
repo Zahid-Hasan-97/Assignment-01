@@ -72,9 +72,14 @@
 .second-mother{
     height: 1200px;
     width: 1400px;
-    margin-left: 25%;
-    margin-top: -50px;
-
+    margin-left: 13%;
+    margin-top: 60px;
+    background-color: #FAFAFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
 }
 
 .second-banner{
@@ -96,6 +101,7 @@
 
 .third-banner{
     margin-top: 80px;
+    color: #565A64;
 }
 
 
@@ -108,17 +114,16 @@
 
 .b1{
     display: flex;
-    /* border: 2px solid red; */
-    /* justify-content: center; */
     gap: 200px;
     width: 1000px;
     height: 300px;
+    background-color: white;
+    border-radius: 16px;
 }
 .para-2-mother{
-    /* display: flex;
-    flex-direction: column; */
     width: 850px;
     height: 240px;
+    padding: 35px 30px;
 }
 .para-2-head{
     font-size: 24px;
@@ -132,15 +137,19 @@
 
 
 .b2{
+    margin-top: 25px;
     display: flex;
     gap: 50px;
     width: 1000px;
     height: 300px;
+    background-color: white;
 
 }
 .para-3-mother{
-    width: 850px;
+    width: 500px;
     height: 240px;
+    padding: 35px 30px;
+    
 
 }
 .para-3-head{
@@ -155,14 +164,17 @@
 
 
 .b3{
+    margin-top: 25px;
     display: flex;
     gap: 200px;
     width: 1000px;
     height: 300px;
+    background-color: white;
 }
 .para-4-mother{
     width: 850px;
     height: 240px;
+    padding: 35px 30px;
 
 }
 .para-4-head{
@@ -172,23 +184,31 @@
 .para-4{
     font-size: 16px;
 
-}
+} 
 
 .btn{
     width: 180px;
     height: 50px;
     font-size: 20px;
     font-weight: bold;
+    color: #565A64;
 }
 
 .inspiration{
+    margin-top: 30px;
     height: 775px;
     width: 1140px;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 .ins-child{
     width: 852px;
     height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+    margin-top: 5px;
 }
 
 .ins-head{
@@ -197,17 +217,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
 }
 .ins-des{
     font-size: 16px;
     margin-bottom: 50px;
 }
 .player{
+    margin-top: 5%;
     box-sizing:1100px 600px;
-    border: 1px solid #DADBDD;
     border-radius: 16px;
     margin-top: 50px;
+    height: 614px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #cfd0d3;
+}
+.video{
+    margin-left: 10px;
 }
 
 /* Third part */
@@ -260,4 +288,78 @@
     background-color: #FFFDF2;
     padding: 30px;
     border-radius: 20px;
+}
+
+/* Forth part */
+
+.forth-mother{
+    background-image: url(../assets/handshake.jpg);
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    border: none;
+    margin-left: 20%;
+}
+
+.forth-child{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+.text-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    width: 120px;
+    height: 57px;
+    margin-left: 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.big-text-box{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 79px;
+
+}
+
+.ul{
+    margin-right: 150px;
+    gap: 24px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.commitment{
+    margin-left: 150px;
+    font: 20px;
+    font-weight: bold;
+    height: 23px;
+    width: 456px;
 }
